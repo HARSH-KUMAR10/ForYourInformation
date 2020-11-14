@@ -1,0 +1,105 @@
+/*Heading of the page - Start*/
+#TOP-Heading{
+background-color:7aa6ff;
+text-align:center;
+padding:20px;
+color:white;
+font-family:verdana;
+font-weight:700;
+}
+/*Styling FYI - Start*/
+#TOP-Topic{
+	font-size:250%;
+}
+/*Styling FYI - End*/
+
+/*Heading of the page - End*/
+/*Whole body of the page - Start*/
+body{
+	margin:0%;
+	overflow-x:hidden;
+}
+/*Whole body of the page - End*/
+/*Body Navigation - Start*/
+/*Left Navigation - Start*/
+#lsidenav{
+	border-right:2px solid black;
+	float:left;
+	height:100%;
+	font-family:courier new;
+	font-size:20px;
+	padding:10px;
+	line-height:400%;
+	
+}
+#lsidenav a{
+	text-decoration:none;
+	background-color:black;
+	border-radius:5%;
+	padding:20px;
+	color:white;
+}
+
+#lsidenav a:hover{
+	text-decoration:line-through;
+	background-color:white;
+	color:black;
+}
+/*Left Navigation - End*/
+/*Right Navigation - Start*/
+#rsidenav{
+	float:right;
+	padding:20px;
+	border-left:2px solid black;
+	height:100%;
+}
+/*Right Navigation - End*/
+/*Body Navigation - End*/
+/*Sticky Control*/
+#sticky{
+	position:sticky;
+	top:0;
+}
+/*Main Body - Start*/
+#main-content{
+}
+
+/*Article Main - Start*/
+#Articles-Main{
+	float:center;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:2%;
+	border:2px solid black;
+	background-color:dddddd;
+	font-family:verdana;
+}
+#Aritcle-Head{
+	font-size:20px;
+	padding:20px;
+}
+.Aritcle-Body{
+	background-color:white;
+	margin:20px;
+	padding:20px;
+}
+#article-visit{
+	color:white;
+	background-color:2962ff;
+	text-decoration:none;
+	padding:10px;
+	margin:20px;
+}
+#move button{
+	font-size:20px;
+	font-weight:800;
+	border:0px solid white;
+	margin:5px;
+}
+#move button:hover{
+	background-color:black;
+	color:white;
+}
+/*Article Main - End*/
+
+/*Main Body - End*/
